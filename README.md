@@ -1,11 +1,6 @@
 # About
 
-Learn about refraction effects from [Junni's site](https://next.junni.co.jp/).
+Inspired by [HA-LABO](https://ha-labo.co.jp/).<br>
+The effects on this site were created by [Takumi HASEGAWA / 長谷川 巧 (unshift Inc.)](https://twitter.com/_unshift).
 
 https://nemutas.github.io/ha-labo-effect/
-
-# Reference
-
-- [Junni](https://next.junni.co.jp/)
-- [↑ repo](https://github.com/junni-inc/next.junni.co.jp)
-- [Implementation Articles](https://zenn.dev/ukonpower/articles/bb71f44c89cb77)
