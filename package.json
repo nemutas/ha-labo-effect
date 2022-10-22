@@ -1,0 +1,28 @@
+{
+	"name": "ha-labo-effect",
+	"homepage": "https://nemutas.github.io/ha-labo-effect/",
+	"private": true,
+	"version": "0.0.0",
+	"type": "module",
+	"scripts": {
+		"start": "vite",
+		"build": "tsc && vite build",
+		"preview": "vite preview",
+		"deploy": "npm run build && gh-pages -d dist"
+	},
+	"devDependencies": {
+		"@types/three": "^0.144.0",
+		"autoprefixer": "^10.4.12",
+		"gh-pages": "^4.0.0",
+		"ress": "^5.0.2",
+		"sass": "^1.54.5",
+		"typescript": "^4.6.4",
+		"vite": "^3.0.7",
+		"vite-plugin-glsl": "^0.5.1"
+	},
+	"dependencies": {
+		"gsap": "^3.11.3",
+		"lil-gui": "^0.17.0",
+		"three": "^0.145.0"
+	}
+}

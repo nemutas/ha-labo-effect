@@ -1,0 +1,29 @@
+body {
+	width: 100%;
+	height: 100%;
+	background-color: #1e1e1e;
+	overflow: hidden;
+}
+
+.three-container {
+	width: 100%;
+	height: 100%;
+}
+
+.loading {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #1e1e1e;
+	display: grid;
+	place-items: center;
+	z-index: 2000;
+	pointer-events: none;
+	user-select: none;
+
+	&__text {
+		font-size: 5rem;
+		color: #fefefe;
+	}
+}

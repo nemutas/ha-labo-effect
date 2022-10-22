@@ -1,0 +1,30 @@
+@use './mixins/media.scss' as *;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;800&display=swap');
+
+:root {
+	--font-poppins: 'Poppins', sans-serif;
+	--font-weight-regular: 300;
+	--font-weight-mediam: 400;
+	--font-weight-exbold: 800;
+}
+
+html {
+	width: 100%;
+	height: 100%;
+	font-size: calc(1000vw / 750);
+	@include pc {
+		font-size: calc(1000vw / 1500);
+	}
+	font-family: var(--font-poppins);
+	font-weight: var(--font-weight-regular);
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+ul {
+	list-style: none;
+}
